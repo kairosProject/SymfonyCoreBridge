@@ -1,0 +1,21 @@
+{
+    "name": "kairos-project/symfony-core-bridge",
+    "description": "Kairos symfony core bridge to configure the components.",
+    "type": "library",
+    "require": {
+        "symfony/http-kernel": "^4.0@stable"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "matthieu vallance",
+            "email": "matthieu.vallance@cscfa.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload" : {
+		"psr-4" : {
+			"KairosProject\\SymfonyCoreBridge\\" : "KairosProject/symfony/Bridge/SymfonyCoreBridge/"
+		}
+	}
+}
